@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.goodrat.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "MouseMixin",
+    "KeyboardMixin",
+    "ChatInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

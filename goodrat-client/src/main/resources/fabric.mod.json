@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "goodrat",
+  "version": "${version}",
+  "name": "GoodRat Client",
+  "description": "A Lunar-style utility client for Minecraft 1.21.x",
+  "authors": ["GoodRat"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.goodrat.client.GoodRatClient"]
+  },
+  "mixins": ["goodrat.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
